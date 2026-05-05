@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/MVVM/Views/UI/SelectedPlanet/FactionControl.uss?fileID=7433441132597879392&amp;guid=1e4a5050161962e42b1223f165f961f8&amp;type=3#FactionControl" />
+    <ui:VisualElement name="donut-root" class="donut-root">
+        <ui:VisualElement name="donut-canvas" class="donut-canvas" />
+        <ui:VisualElement name="donut-total-block" class="donut-total-block" style="margin-bottom: 19px;">
+            <ui:Label name="donut-total-label" text="0" class="donut-total-value" />
+            <ui:Label name="donut-total-caption" text="CONTROL PTS" class="donut-total-caption" />
+        </ui:VisualElement>
+        <ui:VisualElement name="donut-legend" class="donut-legend" />
+    </ui:VisualElement>
+</ui:UXML>

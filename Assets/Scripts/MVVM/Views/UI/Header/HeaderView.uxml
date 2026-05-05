@@ -1,0 +1,32 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/MVVM/Views/UI/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=accc8f6a0d20ee140a8fa8d58e38cb4f&amp;type=3#GlobalStyles" />
+    <Style src="HeaderView.uss" />
+
+    <ui:VisualElement name="header-root" style="
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 34px;
+        padding-left: 8px;
+        padding-right: 8px;
+        background-color: rgb(13, 27, 46);
+        border-bottom-color: rgb(30, 58, 95);
+        border-bottom-width: 1px;
+    ">
+
+        <ui:VisualElement name="header-left" style="flex-direction: row; align-items: center;">
+            <ui:Button name="profile-button"      text="Profile"      class="header-toggle" />
+            <ui:Button name="friends-button"      text="Users"        class="header-toggle" />
+            <ui:Button name="leaderboards-button" text="Leaderboards" class="header-toggle" />
+            <ui:Button name="galaxy-button"       text="Galaxy"       class="header-toggle" style="margin-right: 0;" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="header-right" style="flex-direction: row; align-items: center;">
+            <ui:Button name="language-button"     text="EN" class="header-action" />
+            <ui:Button name="reset-galaxy-button" text="&#x21BA;" class="header-action" />
+            <ui:Button name="logout-button"       text="&#x2190;" class="header-action" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

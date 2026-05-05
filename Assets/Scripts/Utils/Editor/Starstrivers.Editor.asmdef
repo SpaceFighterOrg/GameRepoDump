@@ -1,0 +1,19 @@
+{
+    "name": "Starstrivers.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:11111111111111111111111111111111",
+        "GUID:22222222222222222222222222222222"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

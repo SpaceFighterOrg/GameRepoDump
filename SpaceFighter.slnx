@@ -1,0 +1,13 @@
+﻿<Solution>
+  <Project Path="Starstrivers.Client.MVVM.csproj" />
+  <Project Path="Starstrivers.Shared.csproj" />
+  <Project Path="GenericEventSystem.Editor.csproj" />
+  <Project Path="Starstrivers.Authorings.csproj" />
+  <Project Path="Starstrivers.Editor.csproj" />
+  <Project Path="Starstrivers.Client.Controllers.csproj" />
+  <Project Path="Starstrivers.Client.Systems.csproj" />
+  <Project Path="GenericEventSystem.csproj" />
+  <Project Path="Starstrivers.Shared.Models.csproj" />
+  <Project Path="Starstrivers.Server.Matchmaking.csproj" />
+  <Project Path="Starstrivers.BuildTools.csproj" />
+</Solution>

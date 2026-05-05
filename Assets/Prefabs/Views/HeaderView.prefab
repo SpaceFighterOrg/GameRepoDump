@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5181663890853843942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3272135677653935516}
+  - component: {fileID: 8333781436434626430}
+  - component: {fileID: 7840370635407750208}
+  m_Layer: 0
+  m_Name: HeaderView
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3272135677653935516
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5181663890853843942}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 218.37646, y: 26.237814, z: 358.41095}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8333781436434626430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5181663890853843942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: 5db2c4bc2c881804badc646f2730cf1e, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 128fcf3472d4bec4e98806644943da3e, type: 3}
+  m_SortingOrder: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
+--- !u!114 &7840370635407750208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5181663890853843942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f9fc97b091bdb4eaa4e4b4b9bf440e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _profileOpenEventChannel: {fileID: 11400000, guid: 11e4931454dcaec41b758cd4c008f4c1, type: 2}
+  _usersOpenEventChannel: {fileID: 11400000, guid: 4cf114d3b433dab4dbeab73adb3d4635, type: 2}
+  _leaderboardsOpenEventChannel: {fileID: 11400000, guid: f3137ffe260e508479016c5f14459a0b, type: 2}
+  _galaxyOpenEventChannel: {fileID: 11400000, guid: 6ee463a9c0d9df14798f9eaee18a46a5, type: 2}
+  _galaxyChangedEventChannel: {fileID: 11400000, guid: 57dd10c78fd71444e95899a53d5ad4e5, type: 2}
+  _languageChanged: {fileID: 11400000, guid: 0e86b147ea8264645b97d60b114231c6, type: 2}

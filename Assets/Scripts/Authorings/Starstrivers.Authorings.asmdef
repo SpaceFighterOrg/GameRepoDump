@@ -1,0 +1,27 @@
+{
+    "name": "Starstrivers.Authorings",
+    "rootNamespace": "Assets.Scripts.Authorings",
+    "references": [
+        "GUID:22222222222222222222222222222222",
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:8819f35a0fc84499b990e90a4ca1911f",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:e0cd26848372d4e5c891c569017e11f1",
+        "GUID:a5baed0c9693541a5bd947d336ec7659",
+        "GUID:2665a8d13d1b3f18800f46e256720795",
+        "GUID:953adc2a6b8b4e3c8df5b728bcd546e9",
+        "GUID:20f8fb38544994b97b68d79a6c92b7c1",
+        "GUID:bc33ccd9f8aa8514a86e282e3066aec7",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:11111111111111111111111111111111"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

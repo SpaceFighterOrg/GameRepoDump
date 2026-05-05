@@ -1,0 +1,39 @@
+.header-toggle {
+    height: 22px;
+    margin-right: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(20, 40, 70);
+    border-color: rgb(74, 111, 165);
+    border-width: 1px;
+    border-radius: 4px;
+    color: rgb(126, 200, 227);
+    font-size: 9px;
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+    -unity-text-align: middle-center;
+}
+
+.header-toggle--active {
+    background-color: rgb(40, 80, 140);
+    border-color: rgb(126, 200, 227);
+    border-width: 2px;
+    color: rgb(200, 235, 255);
+}
+
+.header-action {
+    width: 24px;
+    height: 24px;
+    margin-left: 3px;
+    padding: 0;
+    background-color: rgb(60, 20, 20);
+    border-color: rgb(224, 92, 92);
+    border-width: 1px;
+    border-radius: 4px;
+    color: rgb(224, 92, 92);
+    font-size: 12px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}

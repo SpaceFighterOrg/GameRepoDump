@@ -1,0 +1,109 @@
+.profile-panel-full {
+    width: 100%;
+    flex-grow: 1;
+    flex-direction: column;
+    background-color: rgb(13, 27, 46);
+    border-top-color: rgb(30, 58, 95);
+    border-top-width: 1px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.profile-header-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.profile-kpi-row {
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-sections-row {
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: flex-start;
+}
+
+.profile-section {
+    flex: 1;
+    flex-direction: column;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.profile-section-divider {
+    width: 1px;
+    align-self: stretch;
+    background-color: rgb(30, 58, 95);
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.profile-close-btn {
+    width: 22px;
+    height: 22px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgb(74, 111, 165);
+    border-width: 1px;
+    border-radius: 4px;
+    color: rgb(126, 200, 227);
+    font-size: 12px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    padding: 0;
+}
+
+.section-header {
+    font-size: 9px;
+    color: rgb(74, 111, 165);
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 4px;
+    width: 100%;
+    border-bottom-color: rgb(30, 58, 95);
+    border-bottom-width: 1px;
+    padding-bottom: 2px;
+}
+
+.stat-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+.stat-label {
+    font-size: 9px;
+    color: rgb(74, 111, 165);
+    letter-spacing: 1px;
+}
+
+.stat-value {
+    font-size: 9px;
+    color: rgb(126, 200, 227);
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+    -unity-text-align: upper-right;
+}
+
+.stat-value--highlight {
+    font-size: 10px;
+    color: rgb(160, 220, 240);
+    -unity-font-style: bold;
+    margin-left: 3px;
+    margin-right: 10px;
+}
+
+.profile-divider {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(30, 58, 95);
+    margin-bottom: 6px;
+}

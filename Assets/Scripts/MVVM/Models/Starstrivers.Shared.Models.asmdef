@@ -1,0 +1,14 @@
+{
+    "name": "Starstrivers.Shared.Models",
+    "rootNamespace": "Assets.Scripts.MVVM.Models",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

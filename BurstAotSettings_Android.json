@@ -1,0 +1,9 @@
+{
+  "MonoBehaviour": {
+    "EnableBurstCompilation": true,
+    "EnableOptimisations": true,
+    "EnableSafetyChecks": false,
+    "EnableDebugInAllBuilds": false,
+    "ThreadCount": 12
+  }
+}

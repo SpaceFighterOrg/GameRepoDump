@@ -1,0 +1,19 @@
+{
+  "name": "com.mazna.genericeventsystem",
+  "displayName": "Generic Event System",
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "description": "A powerful editor tool to generate dynamic event data and channels.",
+  "keywords": [
+    "events",
+    "data",
+    "editor",
+    "runtime",
+    "tool"
+  ],
+  "author": {
+    "name": "Mazna",
+    "email": "Mazna@Mazna.com"
+  },
+  "dependencies": {}
+}

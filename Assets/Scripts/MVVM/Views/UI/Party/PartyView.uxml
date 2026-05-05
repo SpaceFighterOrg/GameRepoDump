@@ -1,0 +1,21 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/MVVM/Views/UI/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=accc8f6a0d20ee140a8fa8d58e38cb4f&amp;type=3#GlobalStyles" />
+    <Style src="project://database/Assets/Scripts/MVVM/Views/UI/Party/PartyView.uss?fileID=7433441132597879392&amp;guid=17b3f755af2ae594a876593641f659d6&amp;type=3#PartyView" />
+    <ui:VisualElement name="party-root" picking-mode="Ignore" style="flex-grow: 1;">
+        <ui:VisualElement name="party-panel" class="party-panel" style="top: 28px; right: 0;">
+            <ui:Label text="PARTY" class="party-panel-title" />
+            <ui:VisualElement name="party-members-list" class="party-members-list" />
+            <ui:Button name="party-leave-btn" text="LEAVE PARTY" class="secondary-button party-leave-btn" />
+        </ui:VisualElement>
+        <ui:VisualElement name="invite-anchor" class="invite-anchor" style="height: 81px; right: 94px; bottom: 33px; left: 105px;">
+            <ui:VisualElement name="invite-panel" class="invite-panel" style="height: 82px; width: 160px;">
+                <ui:Label text="PARTY INVITE" class="invite-panel-title" />
+                <ui:Label name="invite-from-label" class="invite-from-label" />
+                <ui:VisualElement class="invite-actions-row" style="flex-direction: column; height: 3px; width: 101px;">
+                    <ui:Button name="invite-accept-btn" text="ACCEPT" class="invite-accept-btn" />
+                    <ui:Button name="invite-decline-btn" text="DECLINE" class="invite-decline-btn" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

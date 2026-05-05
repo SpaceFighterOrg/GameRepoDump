@@ -1,0 +1,6 @@
+# Exclude everything by default; include only the built server output
+**
+
+# Include the compiled server binary and data
+!ServerBuild/
+!ServerBuild/**

@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="FactionControl" src="project://database/Assets/Scripts/MVVM/Views/UI/SelectedPlanet/FactionControl.uxml?fileID=9197481963319205126&amp;guid=44d150b1bf932614e974c40ddfcfe831&amp;type=3#FactionControl" />
+    <Style src="project://database/Assets/Scripts/MVVM/Views/UI/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=accc8f6a0d20ee140a8fa8d58e38cb4f&amp;type=3#GlobalStyles" />
+    <ui:VisualElement name="selected-planet-panel" class="card" style="margin-top: 36px; padding: 6px; align-items: stretch; width: 121px;">
+        <ui:Label name="planet-name" text="Planet Name" class="title" style="margin-bottom: 4px; height: 17px; width: 105px;" />
+        <ui:VisualElement name="planet-body" style="flex-direction: column; align-items: center;">
+            <ui:Instance template="FactionControl" name="faction-control" style="height: 96px; width: 74px; align-items: center; justify-content: center;" />
+            <ui:VisualElement name="action-buttons" style="flex-direction: column; flex-grow: 1; padding-left: 6px; align-items: stretch; flex-wrap: nowrap; height: 52px; justify-content: flex-end; align-self: flex-end;">
+                <ui:Button name="battle-button" text="BATTLE" class="secondary-button" style="flex: 1; width: auto; margin-right: 4px; margin-bottom: 0;" />
+                <ui:Button name="lock-button" text="LOCK ATTACK" class="primary-button" style="flex: 1; width: auto; margin-bottom: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

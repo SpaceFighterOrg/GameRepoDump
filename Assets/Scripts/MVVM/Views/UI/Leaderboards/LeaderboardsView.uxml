@@ -1,0 +1,181 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/MVVM/Views/UI/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=accc8f6a0d20ee140a8fa8d58e38cb4f&amp;type=3#GlobalStyles" />
+    <Style src="project://database/Assets/Scripts/MVVM/Views/UI/Leaderboards/LeaderboardsView.uss?fileID=7433441132597879392&amp;guid=a2c05c92d72723a47ac3281842459bba&amp;type=3#LeaderboardsView" />
+    <ui:VisualElement name="leaderboard-panel" class="leaderboard-panel" style="background-color: rgba(13, 27, 46, 0); background-size: 100% 90%; margin-top: 36px; padding-bottom: 6px;">
+        <ui:VisualElement name="factions-row" class="factions-row">
+            <ui:VisualElement name="cartel-column" class="faction-column" style="padding-bottom: 10px;">
+                <ui:VisualElement class="faction-logo" style="background-image: url(&quot;project://database/Assets/Images/cartel.png?fileID=2800000&amp;guid=c1c7c456f1533a7408185eaa002669e7&amp;type=3#cartel&quot;); margin-bottom: 0;" />
+                <ui:Label text="THE CARTEL" class="faction-name faction-name--cartel" />
+                <ui:VisualElement class="faction-divider" />
+                <ui:VisualElement name="cartel-entry-1" class="player-entry">
+                    <ui:VisualElement class="player-header-row">
+                        <ui:Label text="#1" class="rank-badge rank-badge--gold" />
+                        <ui:Label name="cartel-p1-name" text="—" class="player-name" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="stats-grid">
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="KDA" class="stat-cell-label" />
+                            <ui:Label name="cartel-p1-kda" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="ELO" class="stat-cell-label" />
+                            <ui:Label name="cartel-p1-elo" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-cell" />
+                        <ui:VisualElement class="stat-cell" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="cartel-entry-2" class="player-entry">
+                    <ui:VisualElement class="player-header-row">
+                        <ui:Label text="#2" class="rank-badge rank-badge--silver" />
+                        <ui:Label name="cartel-p2-name" text="—" class="player-name" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="stats-grid">
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="KDA" class="stat-cell-label" />
+                            <ui:Label name="cartel-p2-kda" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="ELO" class="stat-cell-label" />
+                            <ui:Label name="cartel-p2-elo" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-cell" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="cartel-entry-3" class="player-entry">
+                    <ui:VisualElement class="player-header-row">
+                        <ui:Label text="#3" class="rank-badge rank-badge--bronze" />
+                        <ui:Label name="cartel-p3-name" text="—" class="player-name" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="stats-grid">
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="KDA" class="stat-cell-label" />
+                            <ui:Label name="cartel-p3-kda" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="ELO" class="stat-cell-label" />
+                            <ui:Label name="cartel-p3-elo" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-cell" />
+                        <ui:VisualElement class="stat-cell" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="coalition-column" class="faction-column" style="padding-bottom: 10px;">
+                <ui:VisualElement class="faction-logo" style="background-image: url(&quot;project://database/Assets/Images/coalition.png?fileID=2800000&amp;guid=86a735540de161d45bd913876a3de121&amp;type=3#coalition&quot;); margin-bottom: 0;" />
+                <ui:Label text="THE COALITION" class="faction-name faction-name--coalition" />
+                <ui:VisualElement class="faction-divider" />
+                <ui:VisualElement name="coalition-entry-1" class="player-entry">
+                    <ui:VisualElement class="player-header-row">
+                        <ui:Label text="#1" class="rank-badge rank-badge--gold" />
+                        <ui:Label name="coalition-p1-name" text="—" class="player-name" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="stats-grid">
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="KDA" class="stat-cell-label" />
+                            <ui:Label name="coalition-p1-kda" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="ELO" class="stat-cell-label" />
+                            <ui:Label name="coalition-p1-elo" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="coalition-entry-2" class="player-entry">
+                    <ui:VisualElement class="player-header-row">
+                        <ui:Label text="#2" class="rank-badge rank-badge--silver" />
+                        <ui:Label name="coalition-p2-name" text="—" class="player-name" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="stats-grid">
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="KDA" class="stat-cell-label" />
+                            <ui:Label name="coalition-p2-kda" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="ELO" class="stat-cell-label" />
+                            <ui:Label name="coalition-p2-elo" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-cell" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="coalition-entry-3" class="player-entry">
+                    <ui:VisualElement class="player-header-row">
+                        <ui:Label text="#3" class="rank-badge rank-badge--bronze" />
+                        <ui:Label name="coalition-p3-name" text="—" class="player-name" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="stats-grid">
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="KDA" class="stat-cell-label" />
+                            <ui:Label name="coalition-p3-kda" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="ELO" class="stat-cell-label" />
+                            <ui:Label name="coalition-p3-elo" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-cell" />
+                        <ui:VisualElement class="stat-cell" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="mandate-column" class="faction-column" style="padding-bottom: 10px;">
+                <ui:VisualElement class="faction-logo" style="background-image: url(&quot;project://database/Assets/Images/mandate.png?fileID=2800000&amp;guid=af6429d811853a74cbddcfb570753fbc&amp;type=3#mandate&quot;); margin-bottom: 0;" />
+                <ui:Label text="THE MANDATE" class="faction-name faction-name--mandate" />
+                <ui:VisualElement class="faction-divider" />
+                <ui:VisualElement name="mandate-entry-1" class="player-entry">
+                    <ui:VisualElement class="player-header-row">
+                        <ui:Label text="#1" class="rank-badge rank-badge--gold" />
+                        <ui:Label name="mandate-p1-name" text="—" class="player-name" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="stats-grid">
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="KDA" class="stat-cell-label" />
+                            <ui:Label name="mandate-p1-kda" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="ELO" class="stat-cell-label" />
+                            <ui:Label name="mandate-p1-elo" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-cell" />
+                        <ui:VisualElement class="stat-cell" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="mandate-entry-2" class="player-entry">
+                    <ui:VisualElement class="player-header-row">
+                        <ui:Label text="#2" class="rank-badge rank-badge--silver" />
+                        <ui:Label name="mandate-p2-name" text="—" class="player-name" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="stats-grid">
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="KDA" class="stat-cell-label" />
+                            <ui:Label name="mandate-p2-kda" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="ELO" class="stat-cell-label" />
+                            <ui:Label name="mandate-p2-elo" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-cell" />
+                        <ui:VisualElement class="stat-cell" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="mandate-entry-3" class="player-entry">
+                    <ui:VisualElement class="player-header-row">
+                        <ui:Label text="#3" class="rank-badge rank-badge--bronze" />
+                        <ui:Label name="mandate-p3-name" text="—" class="player-name" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="stats-grid">
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="KDA" class="stat-cell-label" />
+                            <ui:Label name="mandate-p3-kda" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-cell">
+                            <ui:Label text="ELO" class="stat-cell-label" />
+                            <ui:Label name="mandate-p3-elo" text="—" class="stat-cell-value" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="stat-cell" />
+                        <ui:VisualElement class="stat-cell" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

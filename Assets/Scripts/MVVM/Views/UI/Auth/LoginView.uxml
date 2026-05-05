@@ -1,0 +1,18 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/MVVM/Views/UI/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=accc8f6a0d20ee140a8fa8d58e38cb4f&amp;type=3#GlobalStyles" />
+    <ui:VisualElement name="root" class="screen-root">
+        <ui:VisualElement name="login-card" class="auth-card">
+            <ui:VisualElement class="auth-brand">
+                <ui:Label text="★ STARSTRIVERS ★" name="title" class="title" />
+                <ui:Label text="Enter the galaxy" name="subtitle" class="subtitle" />
+            </ui:VisualElement>
+            <ui:VisualElement class="auth-form">
+                <ui:TextField name="username-field" placeholder-text="Username" class="field" />
+                <ui:TextField name="password-field" placeholder-text="Password" password="true" class="field field--last" />
+                <ui:Button name="login-button" text="LAUNCH" class="primary-button" />
+                <ui:Label name="error-label" class="error-label" />
+                <ui:Label text="Register" name="register-link" class="nav-link" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

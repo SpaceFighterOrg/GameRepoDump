@@ -1,0 +1,19 @@
+{
+    "name": "Starstrivers.Client.Controllers",
+    "rootNamespace": "Assets.Scripts.Controllers",
+    "references": [
+        "GUID:11111111111111111111111111111111",
+        "GUID:bc33ccd9f8aa8514a86e282e3066aec7",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:22222222222222222222222222222222"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

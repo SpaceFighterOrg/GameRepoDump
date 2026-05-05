@@ -1,0 +1,16 @@
+{
+    "name": "Starstrivers.Server.Matchmaking",
+    "rootNamespace": "Assets.Scripts.ECS.Matchmaking",
+    "references": [
+        "GUID:11111111111111111111111111111111"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

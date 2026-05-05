@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <ui:Template name="FriendsTab"  src="Tabs/FriendsTab.uxml" />
+    <ui:Template name="UsersTab"    src="Tabs/UsersTab.uxml" />
+    <ui:Template name="RequestsTab" src="Tabs/RequestsTab.uxml" />
+
+    <Style src="../GlobalStyles.uss" />
+    <Style src="UsersView.uss" />
+
+    <ui:VisualElement name="friends-panel" class="friends-panel">
+
+        <ui:VisualElement name="tab-bar" class="friends-tab-bar">
+            <ui:Button name="tab-friends"  text="FRIENDS"  class="friends-tab friends-tab--active" />
+            <ui:Button name="tab-users"    text="USERS"    class="friends-tab" />
+            <ui:Button name="tab-requests" text="REQUESTS" class="friends-tab" />
+        </ui:VisualElement>
+
+        <ui:Instance template="FriendsTab"  name="page-friends" />
+        <ui:Instance template="UsersTab"    name="page-users"    style="display: none;" />
+        <ui:Instance template="RequestsTab" name="page-requests" style="display: none;" />
+
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,47 @@
+<linker>
+  <!-- ECS / NetCode / Transport — preserve fully to prevent IL2CPP stripping -->
+  <assembly fullname="Unity.Entities" preserve="all"/>
+  <assembly fullname="Unity.NetCode" preserve="all"/>
+  <assembly fullname="Unity.Networking.Transport" preserve="all"/>
+  <assembly fullname="Unity.Collections" preserve="all"/>
+  <assembly fullname="Unity.Burst" preserve="all"/>
+  <assembly fullname="Starstrivers.Shared" preserve="all"/>
+  <assembly fullname="Starstrivers.Client.Systems" preserve="all"/>
+  <assembly fullname="Starstrivers.Client.MVVM" preserve="all"/>
+  <assembly fullname="Starstrivers.Client.Controllers" preserve="all"/>
+  <assembly fullname="Starstrivers.Authorings" preserve="all"/>
+  <assembly fullname="UnityEngine.UI" preserve="all"/>
+  <assembly fullname="Unity.InputSystem" preserve="all"/>
+  <assembly fullname="Unity.TextMeshPro" preserve="all"/>
+  <assembly fullname="GenericEventSystem" preserve="all"/>
+  <assembly fullname="Starstrivers.Shared.Models" preserve="all"/>
+
+  <!-- SignalR client stack — must ALL be preserved or IL2CPP strips them -->
+  <assembly fullname="Microsoft.AspNetCore.SignalR.Client" preserve="all"/>
+  <assembly fullname="Microsoft.AspNetCore.SignalR.Client.Core" preserve="all"/>
+  <assembly fullname="Microsoft.AspNetCore.SignalR.Protocols.Json" preserve="all"/>
+  <assembly fullname="Microsoft.AspNetCore.SignalR.Common" preserve="all"/>
+  <assembly fullname="Microsoft.AspNetCore.Http.Connections.Client" preserve="all"/>
+  <assembly fullname="Microsoft.AspNetCore.Http.Connections.Common" preserve="all"/>
+  <assembly fullname="Microsoft.AspNetCore.Connections.Abstractions" preserve="all"/>
+  <assembly fullname="Microsoft.Extensions.DependencyInjection" preserve="all"/>
+  <assembly fullname="Microsoft.Extensions.DependencyInjection.Abstractions" preserve="all"/>
+  <assembly fullname="Microsoft.Extensions.Logging" preserve="all"/>
+  <assembly fullname="Microsoft.Extensions.Logging.Abstractions" preserve="all"/>
+  <assembly fullname="Microsoft.Extensions.Options" preserve="all"/>
+  <assembly fullname="Microsoft.Extensions.Primitives" preserve="all"/>
+  <assembly fullname="Microsoft.Extensions.Features" preserve="all"/>
+  <assembly fullname="Microsoft.Bcl.AsyncInterfaces" preserve="all"/>
+  <assembly fullname="Microsoft.Bcl.TimeProvider" preserve="all"/>
+
+  <!-- SignalR IO primitives -->
+  <assembly fullname="System.IO.Pipelines" preserve="all"/>
+  <assembly fullname="System.Threading.Channels" preserve="all"/>
+  <assembly fullname="System.Text.Json" preserve="all"/>
+  <assembly fullname="System.Text.Encodings.Web" preserve="all"/>
+  <assembly fullname="System.Diagnostics.DiagnosticSource" preserve="all"/>
+
+  <!-- Game API / DTO assemblies used for SignalR message deserialization -->
+  <assembly fullname="APIClients" preserve="all"/>
+  <assembly fullname="Common" preserve="all"/>
+</linker>

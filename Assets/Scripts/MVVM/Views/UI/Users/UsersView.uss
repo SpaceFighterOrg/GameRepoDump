@@ -1,0 +1,267 @@
+.friends-panel {
+    width: 88%;
+    background-color: rgb(13, 27, 46);
+    border-color: rgb(30, 58, 95);
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 0;
+    margin-top: 36px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.friends-tab-bar {
+    flex-direction: row;
+    width: 100%;
+    border-bottom-color: rgb(30, 58, 95);
+    border-bottom-width: 1px;
+}
+
+.friends-tab {
+    flex-grow: 1;
+    height: 28px;
+    background-color: rgb(13, 27, 46);
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+    border-radius: 0;
+    color: rgb(74, 111, 165);
+    font-size: 10px;
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+}
+
+.friends-tab--active {
+    background-color: rgb(20, 42, 78);
+    color: rgb(126, 200, 227);
+    border-bottom-color: rgb(126, 200, 227);
+    border-bottom-width: 2px;
+}
+
+.friends-page {
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 7px;
+}
+
+.search-row {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4px;
+    width: 100%;
+}
+
+.friends-search-field {
+    flex-grow: 1;
+    margin-right: 6px;
+    height: 26px;
+}
+
+.search-btn {
+    height: 24px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgb(26, 58, 110);
+    border-color: rgb(126, 200, 227);
+    border-width: 1px;
+    border-radius: 4px;
+    color: rgb(126, 200, 227);
+    font-size: 10px;
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+}
+
+.refresh-btn {
+    height: 22px;
+    align-self: flex-end;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 4px;
+    background-color: rgb(20, 40, 70);
+    border-color: rgb(74, 111, 165);
+    border-width: 1px;
+    border-radius: 4px;
+    color: rgb(126, 200, 227);
+    font-size: 10px;
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+}
+
+
+.friends-scroll {
+    flex-grow: 1;
+    min-height: 70px;
+    max-height: 100px;
+}
+
+.friends-list {
+    flex-direction: column;
+    width: 100%;
+}
+
+.friend-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-bottom-color: rgb(30, 58, 95);
+    border-bottom-width: 1px;
+}
+
+.friend-row-name {
+    font-size: 10px;
+    color: rgb(126, 200, 227);
+    flex-grow: 1;
+}
+
+.add-friend-btn {
+    height: 22px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(20, 50, 30);
+    border-color: rgb(80, 180, 100);
+    border-width: 1px;
+    border-radius: 4px;
+    color: rgb(80, 200, 100);
+    font-size: 10px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    flex-shrink: 0;
+}
+
+.add-friend-btn--pending {
+    background-color: rgb(30, 30, 30);
+    border-color: rgb(80, 80, 80);
+    color: rgb(100, 100, 100);
+}
+
+.friend-party-btn {
+    height: 22px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(20, 40, 80);
+    border-color: rgb(74, 111, 165);
+    border-width: 1px;
+    border-radius: 4px;
+    color: rgb(126, 200, 227);
+    font-size: 10px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    margin-right: 3px;
+    flex-shrink: 0;
+}
+
+.friend-profile-btn {
+    height: 22px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(20, 40, 70);
+    border-color: rgb(74, 111, 165);
+    border-width: 1px;
+    border-radius: 4px;
+    color: rgb(126, 200, 227);
+    font-size: 10px;
+    -unity-text-align: middle-center;
+    margin-right: 3px;
+    flex-shrink: 0;
+}
+
+.friend-unfriend-btn {
+    height: 22px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(60, 20, 20);
+    border-color: rgb(224, 92, 92);
+    border-width: 1px;
+    border-radius: 4px;
+    color: rgb(224, 92, 92);
+    font-size: 10px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    flex-shrink: 0;
+}
+
+.approve-btn {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(20, 50, 30);
+    border-color: rgb(80, 180, 100);
+    border-width: 1px;
+    border-radius: 4px;
+    color: rgb(80, 200, 100);
+    font-size: 11px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    padding: 0;
+    margin-right: 3px;
+}
+
+.deny-btn {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(60, 20, 20);
+    border-color: rgb(224, 92, 92);
+    border-width: 1px;
+    border-radius: 4px;
+    color: rgb(224, 92, 92);
+    font-size: 11px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    padding: 0;
+}
+
+.tab-error-label {
+    color: rgb(224, 92, 92);
+    font-size: 10px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    white-space: normal;
+}
+
+.pagination-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+}
+
+.page-btn {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(20, 40, 70);
+    border-color: rgb(74, 111, 165);
+    border-width: 1px;
+    border-radius: 4px;
+    color: rgb(126, 200, 227);
+    font-size: 11px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    padding: 0;
+}
+
+.page-btn--disabled {
+    background-color: rgb(15, 25, 40);
+    border-color: rgb(35, 50, 70);
+    color: rgb(45, 65, 90);
+}
+
+.page-label {
+    font-size: 10px;
+    color: rgb(126, 200, 227);
+    -unity-text-align: middle-center;
+    margin-left: 6px;
+    margin-right: 6px;
+    min-width: 16px;
+}

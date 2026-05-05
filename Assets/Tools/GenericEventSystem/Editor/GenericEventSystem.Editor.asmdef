@@ -1,0 +1,16 @@
+{
+    "name": "GenericEventSystem.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:bc33ccd9f8aa8514a86e282e3066aec7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

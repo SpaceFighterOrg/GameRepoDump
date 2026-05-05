@@ -1,0 +1,145 @@
+.party-panel {
+    position: absolute;
+    top: 30px;
+    right: 8px;
+    width: 110px;
+    background-color: rgb(13, 27, 46);
+    border-color: rgb(30, 58, 95);
+    border-width: 1px;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.party-panel-title {
+    font-size: 9px;
+    color: rgb(126, 200, 227);
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+    -unity-text-align: upper-center;
+    padding-bottom: 3px;
+    margin-bottom: 4px;
+    border-bottom-color: rgb(30, 58, 95);
+    border-bottom-width: 1px;
+}
+
+.party-members-list {
+    flex-direction: column;
+    margin-bottom: 6px;
+}
+
+.party-member-row {
+    flex-direction: row;
+    align-items: center;
+    min-height: 18px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-bottom-color: rgb(20, 40, 70);
+    border-bottom-width: 1px;
+}
+
+.party-member-name {
+    flex-grow: 1;
+    font-size: 9px;
+    color: rgb(126, 200, 227);
+}
+
+.party-member-name--leader {
+    color: rgb(255, 210, 60);
+}
+
+.party-member-empty {
+    flex-grow: 1;
+    font-size: 9px;
+    color: rgb(35, 55, 80);
+    -unity-font-style: italic;
+}
+
+.party-kick-btn {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    background-color: rgb(60, 20, 20);
+    border-color: rgb(224, 92, 92);
+    border-width: 1px;
+    border-radius: 2px;
+    color: rgb(224, 92, 92);
+    font-size: 9px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    flex-shrink: 0;
+}
+
+.party-leave-btn {
+    margin-bottom: 0;
+    height: 20px;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+.invite-anchor {
+    position: absolute;
+    bottom: 28px;
+    left: 0;
+    right: 0;
+    align-items: center;
+}
+
+.invite-panel {
+    width: 160px;
+    background-color: rgb(13, 27, 46);
+    border-color: rgb(126, 200, 227);
+    border-width: 1px;
+    border-radius: 6px;
+    padding: 8px;
+    align-items: center;
+}
+
+.invite-panel-title {
+    font-size: 9px;
+    color: rgb(126, 200, 227);
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+    -unity-text-align: upper-center;
+    margin-bottom: 2px;
+}
+
+.invite-from-label {
+    font-size: 9px;
+    color: rgb(200, 220, 240);
+    -unity-text-align: upper-center;
+    white-space: normal;
+    margin-bottom: 5px;
+}
+
+.invite-actions-row {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.invite-accept-btn {
+    flex-grow: 1;
+    height: 22px;
+    background-color: rgb(20, 50, 30);
+    border-color: rgb(80, 180, 100);
+    border-width: 1px;
+    border-radius: 3px;
+    color: rgb(80, 200, 100);
+    font-size: 9px;
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+    margin-right: 3px;
+}
+
+.invite-decline-btn {
+    flex-grow: 1;
+    height: 22px;
+    background-color: rgb(60, 20, 20);
+    border-color: rgb(224, 92, 92);
+    border-width: 1px;
+    border-radius: 3px;
+    color: rgb(224, 92, 92);
+    font-size: 9px;
+    -unity-font-style: bold;
+    letter-spacing: 1px;
+}

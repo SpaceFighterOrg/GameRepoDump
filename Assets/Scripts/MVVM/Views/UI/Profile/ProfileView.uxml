@@ -1,0 +1,67 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/MVVM/Views/UI/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=accc8f6a0d20ee140a8fa8d58e38cb4f&amp;type=3#GlobalStyles" />
+    <Style src="project://database/Assets/Scripts/MVVM/Views/UI/Profile/ProfileView.uss?fileID=7433441132597879392&amp;guid=b20954a4072b05c428f79f86af108ad8&amp;type=3#ProfileView" />
+    <ui:VisualElement name="profile-panel" class="profile-panel-full" style="margin-top: 36px;">
+
+        <ui:VisualElement class="profile-header-row">
+            <ui:Label name="username-label" text="USERNAME" class="title" />
+            <ui:VisualElement class="profile-kpi-row">
+                <ui:Label text="LEVEL" class="stat-label" />
+                <ui:Label name="level-label" text="—" class="stat-value stat-value--highlight" />
+                <ui:Label text="ELO" class="stat-label" />
+                <ui:Label name="elo-label" text="—" class="stat-value stat-value--highlight" />
+            </ui:VisualElement>
+            <ui:Button name="profile-close-btn" text="✕" class="profile-close-btn" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="profile-divider" />
+
+        <ui:VisualElement class="profile-sections-row">
+
+            <ui:VisualElement class="profile-section">
+                <ui:Label text="COMBAT" class="section-header" />
+                <ui:VisualElement class="stat-row">
+                    <ui:Label text="Kills" class="stat-label" />
+                    <ui:Label name="kills-label" text="—" class="stat-value" />
+                </ui:VisualElement>
+                <ui:VisualElement class="stat-row">
+                    <ui:Label text="Deaths" class="stat-label" />
+                    <ui:Label name="deaths-label" text="—" class="stat-value" />
+                </ui:VisualElement>
+                <ui:VisualElement class="stat-row">
+                    <ui:Label text="Assists" class="stat-label" />
+                    <ui:Label name="assists-label" text="—" class="stat-value" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="profile-section-divider" />
+
+            <ui:VisualElement class="profile-section">
+                <ui:Label text="MATCHES" class="section-header" />
+                <ui:VisualElement class="stat-row">
+                    <ui:Label text="Played" class="stat-label" />
+                    <ui:Label name="games-played-label" text="—" class="stat-value" />
+                </ui:VisualElement>
+                <ui:VisualElement class="stat-row">
+                    <ui:Label text="Won" class="stat-label" />
+                    <ui:Label name="games-won-label" text="—" class="stat-value" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement class="profile-section-divider" />
+
+            <ui:VisualElement class="profile-section">
+                <ui:Label text="LOCATION" class="section-header" />
+                <ui:VisualElement class="stat-row">
+                    <ui:Label text="Faction" class="stat-label" />
+                    <ui:Label name="faction-label" text="—" class="stat-value" />
+                </ui:VisualElement>
+                <ui:VisualElement class="stat-row">
+                    <ui:Label text="Planet" class="stat-label" />
+                    <ui:Label name="planet-label" text="—" class="stat-value" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

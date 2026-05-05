@@ -1,0 +1,24 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/MVVM/Views/UI/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=accc8f6a0d20ee140a8fa8d58e38cb4f&amp;type=3#GlobalStyles" />
+    <ui:VisualElement name="root" class="screen-root">
+        <ui:VisualElement name="login-card" class="auth-card">
+            <ui:VisualElement class="auth-brand">
+                <ui:Label text="★ STARSTRIVERS ★" name="title" class="title" />
+                <ui:Label text="Be spawned into the galaxy" name="subtitle" class="subtitle" />
+                <ui:VisualElement class="faction-picker-row">
+                    <ui:VisualElement name="faction-mandate" class="faction-icon" style="background-image: url(&quot;project://database/Assets/Images/mandate.png?fileID=2800000&amp;guid=af6429d811853a74cbddcfb570753fbc&amp;type=3#mandate&quot;);" />
+                    <ui:VisualElement name="faction-coalition" class="faction-icon" style="background-image: url(&quot;project://database/Assets/Images/coalition.png?fileID=2800000&amp;guid=86a735540de161d45bd913876a3de121&amp;type=3#coalition&quot;);" />
+                    <ui:VisualElement name="faction-cartel" class="faction-icon" style="background-image: url(&quot;project://database/Assets/Images/cartel.png?fileID=2800000&amp;guid=c1c7c456f1533a7408185eaa002669e7&amp;type=3#cartel&quot;);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="auth-form">
+                <ui:TextField name="username-field" placeholder-text="Username" class="field" />
+                <ui:TextField name="email-field" placeholder-text="Email" class="field" />
+                <ui:TextField name="password-field" placeholder-text="Password" password="true" class="field field--last" />
+                <ui:Button name="register-button" text="LAUNCH" class="primary-button" />
+                <ui:Label name="error-label" class="error-label" />
+                <ui:Label text="Login" name="login-link" class="nav-link" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

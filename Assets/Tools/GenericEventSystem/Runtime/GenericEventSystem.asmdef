@@ -1,0 +1,16 @@
+{
+    "name": "GenericEventSystem",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a6c288a1bba56024db10523852f9643d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
